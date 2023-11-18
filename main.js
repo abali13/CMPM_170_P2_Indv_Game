@@ -46,6 +46,7 @@ function update() {
     //char("a", 30, 30)
     if(size <= 0 || size >= 105 ){
         rect(0, 10, size, size)
+        size = 25
         end()
     }
 
